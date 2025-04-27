@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "transfermarkt-scraper"
+version = "0.1.0"
+description = "Scraper for Transfermarkt player data"
+authors = ["Kasimir Putseys"]
+packages = [{include = "scraper"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.31.0"
+beautifulsoup4 = "^4.12.2"
+lxml = "^4.9.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
